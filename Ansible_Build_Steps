@@ -9,7 +9,7 @@ step 6: open VS code and open your Ansibel-Learning folder in VScode
 step 7: open gitbash and run cd /D/Ansible-Learning/
 step 8: open GitHub in browser create the new account. And if already exists then create one repo like Ansible
 step 9: open gitbash clone your repo 
-		git clone https://github.com/sivasankar-bhimisetty/ansible
+		git clone https://github.com/bhimisetty-devops/
 		ls
 		cd Ansible
 Step 10: open VSCode and start code then open gitbash and run git add .; git commit -m "new file added"; git push origin main. (push code to GitHub)
@@ -27,7 +27,7 @@ Step 16: Copy public key to remote nodes for passwordless authenticating
 Step 17: Check passwordless authentication success or not using below command from ansible server
         $ ssh 192.168.30.149
 step 18: open Linux Ansible server and clone the gitbash repo and pull the code and run in server
-		git clone https://github.com/sivasankar-bhimisetty/ansible
+		git clone https://github.com/bhimisetty-devops/Ansible
 
 Step 19: 
 Step 20: 
