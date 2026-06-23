@@ -1,0 +1,36 @@
+step 1: Build Linux server ( rocky or redhat or centOS)
+step 2: install ansible package in Linux server
+step 3: install git package in Linux srever
+step 4: install gitbash in your laptop
+step 5: Install VSCode in your laptop
+step 5: open your D drive and create one folder like Ansible-Learning
+step 6: open VS code and open your Ansibel-Learning folder in VScode
+	Click on file--click on open folder--select your created folder in latop
+step 7: open gitbash and run cd /D/Ansible-Learning/
+step 8: open GitHub in browser create the new account. And if already exists then create one repo like Ansible
+step 9: open gitbash clone your repo 
+		git clone https://github.com/sivasankar-bhimisetty/ansible
+		ls
+		cd Ansible
+Step 10: open VSCode and start code then open gitbash and run git add .; git commit -m "new file added"; git push origin main. (push code to GitHub)
+Step 11: Create remote servers ex: Remote-1 and Remote-2
+Step 12: Add remote servers IP's in Ansible inventory file
+Step 13: Create separate "ansible" user in all 3 servers ( Ansible and remote node's)
+Step 14: switch to anisble user in ansible server
+Step 15: Now generate keys (Private and Public) in ansible server using below command.
+Step 16: Copy public key to remote nodes for passwordless authenticating 
+        $ ssh-copy-id ansible@192.168.30.136
+        $ ssh-copy-id ansible@192.168.30.149
+    Note: Now we can able to see authorized_keys in remote servers on below location
+            /home/ansible/.ssh
+            authorized_keys
+Step 17: Check passwordless authentication success or not using below command from ansible server
+        $ ssh 192.168.30.149
+step 18: open Linux Ansible server and clone the gitbash repo and pull the code and run in server
+		git clone https://github.com/sivasankar-bhimisetty/ansible
+
+Step 19: 
+Step 20: 
+
+
+        
